@@ -9,90 +9,100 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <style>
         .mar-top {
-            margin-top: 70px;
+            margin-top: 50px;
         }
     </style>
 </head>
 
 <body>
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="#">Zones</a>
             </div>
-            <ul class="nav navbar-nav pull-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Solution
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Workplace Mordernization</a></li>
-                        <li><a href="#">Network Optimization</a></li>
+            <div class="collapse navbar-collapse" id="myNavbar">
 
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Product 
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Server</a></li>
-                        <li><a href="#">Software</a></li>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Solution
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Workplace Mordernization</a></li>
+                            <li><a href="#">Network Optimization</a></li>
 
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Software
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Software Solution</a></li>
-                        <li><a href="#">Software Productddd</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Product
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Server</a></li>
+                            <li><a href="#">Software</a></li>
 
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cloud
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Assesment</a></li>
-                        <li><a href="#">Solution</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Software
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Software Solution</a></li>
+                            <li><a href="#">Software Productddd</a></li>
 
-                    </ul>
-                </li>
-            </ul>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cloud
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Assesment</a></li>
+                            <li><a href="#">Solution</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <section>
 
-        <div class="container mar-top">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Program 1</h1>
-                    <h5>please see the console</h5>
-                    <p>or</p>
-                    <p>paste following code in the console</p>
-                    <ul>
-                        <li>addFn(3)(4);</li>
-                        <li>addFn(3,4);</li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Program 2</h1>
-                    <input type="text" id="inputElements">
-                    <input type="submit" value="submit" id="submit">
-                    <p id="program2ans"></p>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Program 3</h1>
-                    <h5 id="program3ans"></h5>
-                </div>
+
+    <div class="container mar-top">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Program 1</h1>
+                <h5>please see the console</h5>
+                <p>or</p>
+                <p>paste following code in the console</p>
+                <ul>
+                    <li>addFn(3)(4);</li>
+                    <li>addFn(3,4);</li>
+                </ul>
             </div>
         </div>
-    </section>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Program 2</h1>
+                <p><i>Please enter comma seperated values</i></p>
+                <input type="text" id="inputElements">
+                <input type="submit" value="submit" id="submit">
+                <p id="program2ans"></p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Program 3</h1>
+                <h5 id="program3ans"></h5>
+            </div>
+        </div>
+    </div>
+
 </body>
 <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
